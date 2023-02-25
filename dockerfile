@@ -7,8 +7,7 @@ COPY package.json ./
 
 USER node
 
-run npm install
-#run chown=node:node ./package*.json
+RUN npm install
 COPY --chown=node:node . ./
 RUN ["chmod", "755", "./package-lock.json"]
 EXPOSE 8000
