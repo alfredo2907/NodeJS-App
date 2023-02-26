@@ -11,8 +11,8 @@ A Basic Node.js/Express REST API implementation example.
 
 # Deploy Node JS Application using Docker
 
-## Run `docker pull node:latest` to pull node image
-## Run `docker 
+* Run `docker pull node:latest` to pull node image
+* Run `docker 
 
 
 
